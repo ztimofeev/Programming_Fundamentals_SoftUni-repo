@@ -22,10 +22,7 @@
                             {
                                 for (int n5 = n4 + 1; n5 <= secondNumber; n5++)
                                 {
-                                    if (n1 < n2 && n2 < n3 && n3 < n4 && n4 < n5)
-                                    {
-                                        Console.WriteLine($"{n1} {n2} {n3} {n4} {n5}");
-                                    }
+                                    Console.WriteLine($"{n1} {n2} {n3} {n4} {n5}");
                                 }
                             }
                         }
